@@ -26,6 +26,9 @@ A Image Classification Using Vision Language Model using the ai.sooners.us API.
 pip install -r requirements.txt
 python cifar10_classify.py
 
+## SELECT YOUR EXPERIMENT in cifar10_classify.py file:
+SYSTEM_PROMPT = SYSTEM_PROMPT_V1
+
 ## Project Structure
 
 - `cifar10_classify.py` - Main classification script
