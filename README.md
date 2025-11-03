@@ -35,3 +35,33 @@ SYSTEM_PROMPT = SYSTEM_PROMPT_V1
 - `requirements.txt` - Python dependencies
 - `README.md` - This file
 - `.gitignore` - Excludes env files from Git
+
+## Results Discussion
+
+For SYSTEM_PROMPT_V1,it gives Classification guidelines for all classes.
+Per-class accuracy:
+    airplane:  6/10 =  60.0%
+  automobile:  9/10 =  90.0%
+        bird:  4/10 =  40.0%
+         cat:  5/10 =  50.0%
+        deer:  6/10 =  60.0%
+         dog:  6/10 =  60.0%
+        frog:  1/10 =  10.0%
+       horse:  8/10 =  80.0%
+        ship:  6/10 =  60.0%
+       truck:  9/10 =  90.0%
+
+For SYSTEM_PROMPT_V2,it gives only explain the task goal.  
+Per-class accuracy:
+    airplane:  6/10 =  60.0%
+  automobile:  9/10 =  90.0%
+        bird:  3/10 =  30.0%
+         cat:  5/10 =  50.0%
+        deer:  6/10 =  60.0%
+         dog:  8/10 =  80.0%
+        frog:  3/10 =  30.0%
+       horse: 10/10 = 100.0%
+        ship:  3/10 =  30.0%
+       truck:  8/10 =  80.0%
+
+These two prompts are comparable without outstanding improvements.
